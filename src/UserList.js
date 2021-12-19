@@ -28,7 +28,7 @@ class UserList extends Component{
  
     return (
       <div>     
-      	<h2>Users</h2>     
+      	<p>Users</p>     
       	<button onClick={this.updateState}>{this.state.buttonDesc}</button>            	
 	  	<ol>{
           users.map((user)=>(

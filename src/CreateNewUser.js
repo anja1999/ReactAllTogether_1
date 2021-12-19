@@ -48,8 +48,8 @@ class CreateNewUser extends Component {
   }
   
   detailsAreEmpty = ()=>{
-    return this.state.firstName === '' & 
-      this.state.lastName === '' &
+    return this.state.firstName === '' || 
+      this.state.lastName === '' ||
       this.state.userName === '';
   }
   
